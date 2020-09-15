@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEx", "ApiEx\ApiEx.csproj", "{23AAFBA6-E4AF-4337-89FF-247A2F22DE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{D65A35B0-0E58-4E01-93CB-449807EE5FD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B692A36E-5BC2-46AA-B332-5A9B0AFB6B6C}"
+	ProjectSection(SolutionItems) = preProject
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23AAFBA6-E4AF-4337-89FF-247A2F22DE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23AAFBA6-E4AF-4337-89FF-247A2F22DE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23AAFBA6-E4AF-4337-89FF-247A2F22DE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23AAFBA6-E4AF-4337-89FF-247A2F22DE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65A35B0-0E58-4E01-93CB-449807EE5FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65A35B0-0E58-4E01-93CB-449807EE5FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65A35B0-0E58-4E01-93CB-449807EE5FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65A35B0-0E58-4E01-93CB-449807EE5FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B880E53-87D1-46DC-9A91-222A0F7CC30F}
+	EndGlobalSection
+EndGlobal
