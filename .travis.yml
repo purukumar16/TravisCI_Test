@@ -7,9 +7,9 @@ script:
 - dotnet restore
 - msbuild
 - dotnet test ./Test/bin/Debug/netcoreapp3.1/Test.dll
- deploy:
-  provider: heroku
-  api_key:
-    secure: abf38497-f5de-4826-a9ee-23ae4ae9d175
-  on:
-    repo: purukumar16/TravisCI_Test
+deploy:
+provider: heroku
+api_key:
+secure: abf38497-f5de-4826-a9ee-23ae4ae9d175
+on:
+repo: purukumar16/TravisCI_Test
