@@ -8,10 +8,9 @@ script:
 - msbuild
 - dotnet test ./Test/bin/Debug/netcoreapp3.1/Test.dll
 deploy:
-  provider: heroku
-  api_key:
-    secure: VoxjAlMEtDiXy9rc20/GVxoiUhWbzkd7spQUXSy1kBFj44eOcnM5xWsstNE1XmHuImNnw3dswn9WXwbcbvzVb2ip84UkIjrpAZUd645ln1njdj16wICPfpd7a/myV35LgNMYH01uWpU9NTy7Y+6h4TLuzucYVPBK2CR+pMhM4lct/M/LHvC5ewNraQILGnXfwaTzuYiBNMP4pq6hTGuYv1dydqobxzs/a0jjHnhwxjVRCXcmJt2FqEQ+tXYoI7BJxMaFWsoeE6hTWU5r9VeMlygx0Psm1LkzAOSEDHYv50noVw/h95Kj/M+le7iELn0j+GxQkMqLSJ8XmrKM1liGeyeuBPUSLoszw0np3Xvsy2Sj+yQRQpBaJq23FAQIlenxRaO/EAbXG96HPyFMu/z93AMv1PDCmyrQmmd4Bme51Q8knwkaPeKFGnGAy9rGqTdx79XgjHBqLE0d5zAMNekffYx8VBxdJ1I4xm3r1VHwUN1rU+q+o//o0YTNKN9YQ7XtpxqPHun37mD7+AcQz1l5Tnct+AwGvQV7mF01ndbEHtsJ+HgISNThM6+Cw/LDrf18JZCa4JE8JmMu7nHDR8xDGhuP+K8KmdotT4Fn60E6UqSBQm5EmKuFmMkwzrILC8j54xwP3nt0aZP5L8E04anKvUPXLfJT8RXK7zHxzaI4ui4=
-  app: TravisCI_Test
-  on:
-    repo: purukumar16/TravisCI_Test
-  skip_cleanup: 'true'
+provider: heroku
+api_key:
+secure: abf38497-f5de-4826-a9ee-23ae4ae9d175
+app: api-deploy-test
+on:
+repo: purukumar16/TravisCI_Test
