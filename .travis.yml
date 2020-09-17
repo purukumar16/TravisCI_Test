@@ -11,6 +11,5 @@ script:
   provider: heroku
   api_key:
     secure: abf38497-f5de-4826-a9ee-23ae4ae9d175
-  app: api-deploy-test
   on:
     repo: purukumar16/TravisCI_Test
